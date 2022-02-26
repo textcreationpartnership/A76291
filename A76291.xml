@@ -1,0 +1,600 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Cambridge royallist imprisoned.</title>
+            <author>R. B.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1643</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 15 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A76291</idno>
+            <idno type="STC">Wing B160</idno>
+            <idno type="STC">Thomason E62_15</idno>
+            <idno type="STC">ESTC R4478</idno>
+            <idno type="EEBO-CITATION">99872688</idno>
+            <idno type="PROQUEST">99872688</idno>
+            <idno type="VID">155365</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A76291)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 155365)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 11:E62[15])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Cambridge royallist imprisoned.</title>
+                  <author>R. B.</author>
+                  <author>T. S.</author>
+               </titleStmt>
+               <extent>[8] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[S.l. :</pubPlace>
+                  <date>1643]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: Sent from the same scholler from Cambridge, whose name is R.B. to his royall friend at Oxford, T.S.</note>
+                  <note>In verse.</note>
+                  <note>Caption title.</note>
+                  <note>Publication date from Wing.</note>
+                  <note>Signatures: A⁴.</note>
+                  <note>Annotation on Thomason copy: "July 31 1643".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>University of Cambridge --  Poetry --  Early works to 1800.</term>
+               <term>Royalists --  England --  History --  17th century --  Poetry --  Early works to 1800.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:155365:1" rendition="simple:additions"/>
+            <head>THE CAMBRIDGE ROYALLIST Impriſoned.</head>
+            <lg>
+               <l>TWas then, when as the Fame of <hi>Ruperts</hi> Force</l>
+               <l>Call'd the confiding Counties all to Horſe,</l>
+               <l>And drew the Bacon-eating Cavaliers</l>
+               <l>(By the convenient Handle of their eares)</l>
+               <l>To leave their tough dunne Wives behind, and come</l>
+               <l>(Their Calve-skin Breeches turn'd into a Drumme)</l>
+               <l>Tout-ſtinke our ſtreets at <hi>Cambridge,</hi> when as I</l>
+               <l>(Being guiltie found of too much honeſtie)</l>
+               <l>By two Malignants was, <hi>Conſcience</hi> and <hi>Reaſon,</hi>
+               </l>
+               <l>Betray'd t'an act of Vertue, now call'd Treaſon:</l>
+               <l>The Committee was ſtraight inform'd; A youth,</l>
+               <l>With goodly goggle eyes, and large <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vry mouth,</l>
+               <l>Is ſent for me. — He knocks at Doore: <hi>Who's there?</hi>
+               </l>
+               <l>
+                  <hi>A Friend; <hi>Duns, I deke you all, Come neere!</hi>
+                  </hi>
+               </l>
+               <l>The word ſcarce ſpoke, there comes one ruſhing in,</l>
+               <l>All arm'd with <hi>Eare,</hi> his B<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>f<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> was o'th' ſame skin<g ref="char:punc">▪</g>
+               </l>
+               <l>What could One thinke this was? Some monſtrous Creature,</l>
+               <l>Tann'd, whilſt it was alive, whoſe Viſage Nature</l>
+               <l>Broach'd i'th' wrong place; Faith, I took't for a Man.</l>
+               <l>(Boldly I muſt confeſſe) and thus began:</l>
+               <pb facs="tcp:155365:2"/>
+               <l>
+                  <hi>What wouldſt thou Friend, what brought thee to this place?</hi>
+               </l>
+               <l>He anſwers me from th'other ſide his face;</l>
+               <l>
+                  <hi>Y'are a Malignant Sir, and Rebell, wee</hi>
+               </l>
+               <l>
+                  <hi>Are ſent to fetch you to the Committee.</hi>
+               </l>
+               <l>
+                  <hi>Good words my Friend; if you or I muſt bee</hi>
+               </l>
+               <l>
+                  <hi>A Rebell, I ſome hope of Comfort ſee,</hi>
+               </l>
+               <l>
+                  <hi>Your Mouth doth juſt i'th' hanging poſture ſtand:</hi>
+               </l>
+               <l>With that his Browes fierce briſtles ſtartled, and</l>
+               <l>
+                  <hi>I yield up, Sir, Ile goe along with you:</hi>
+               </l>
+               <l>
+                  <hi>Walke on; <hi>Nay leave me in the Chamber though,</hi>
+                  </hi>
+               </l>
+               <l>
+                  <hi>Good Lord, y'are all ſo complementall.</hi> Downe</l>
+               <l>We goe, and both marcht up into the Towne:</l>
+               <l>
+                  <hi>And which way now? <hi>Nay, good Sir keepe the wall:</hi>
+                  </hi>
+               </l>
+               <l>
+                  <hi>Excuſe me, Sir; <hi>Nay as you live you ſhall:</hi>
+                  </hi>
+               </l>
+               <l>
+                  <hi>Why 'tis the windie ſide, and credit mee</hi>
+               </l>
+               <l>
+                  <hi>Your ſtrange perfumes make my head ake.</hi> Thus wee</l>
+               <l>Marcht to the Towne-Hall; where being ſtraight
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>et in,</l>
+               <l>Such company ſuch ſmoake, ſuch ſtinke, ſuch dinne,</l>
+               <l>Such ſwearing did ſalute me, that I fell</l>
+               <l>On wondring how we came up ſtayres to Hell,</l>
+               <l>For this could be no leſſe; on every ſide</l>
+               <l>Such ſawcer-eyes appear'd ſuch horrid, wide,</l>
+               <l>And gaping mouthes, ſuch teeth, ſuch thorny haire,</l>
+               <l>Which you might ſee through th' lanterne of their eare,</l>
+               <l>So ſhort, ſo ſtrangely notcht, that you might know</l>
+               <l>It never had bin cut, but ſindged ſo;</l>
+               <l>Beſide each horne-pipe voyce ſeem'd to betray</l>
+               <l>Where good Saint <hi>Dunſtans</hi> Tongs had ſpoyld the way:</l>
+               <l>Happy the men muſt fight with theſe, thought I,</l>
+               <l>For they ſhall nothing but their backs eſpie.</l>
+               <l>Six Volley of Curſes 'gainſt the Schollers, heere,</l>
+               <l>Went off for entertainment, and a Jeere.</l>
+               <l>Or two were paſt for Complement; but I,</l>
+               <l>Like a brave-ſuffering Man, paſs'd ſilent by.</l>
+               <l>They ſpent themſelves about me: One ſteps out,</l>
+               <l>And cryes, <hi>Rupert's</hi> a Coward; all the Rout</l>
+               <l>Clap hands to th' Basket-hilt, and <hi>Draw,</hi> then cry,</l>
+               <l>
+                  <hi>Oh that we had that Divell</hi> Rupert <hi>by.</hi>
+               </l>
+               <pb facs="tcp:155365:2"/>
+               <l>
+                  <hi>Out ye damn'd Garlick-eating Rogues, D'you thinke</hi>
+               </l>
+               <l>
+                  <hi>You don't alreadie vent ſufficient ſtinke,</hi>
+               </l>
+               <l>
+                  <hi>But you muſt call for one, whoſe very Name</hi>
+               </l>
+               <l>
+                  <hi>Will dye your Scarffes and Breeches of the ſame?</hi>
+               </l>
+               <l>Three redion; houres amongſt theſe hell-hounds wee</l>
+               <l>Bravely en lur'd; when comming in we ſee</l>
+               <l>A ſpruce young Rebell, who ſcarce yet did know</l>
+               <l>Whether he fought againſt the King, or no;</l>
+               <l>Who had bin Scholler once (t'our ſhame be't ſpoken)</l>
+               <l>Since a young Marchant, and ſince that time broken,</l>
+               <l>Now damn'd to th' ſervice of the Rebels: hee</l>
+               <l>Proffer'd his utmoſt paines to ſet us free.</l>
+               <l>I, though it vex'd me, any of them ſhould</l>
+               <l>Doe ought which even Complement might call good,</l>
+               <l>Yet had not ſo much valour to deny</l>
+               <l>Quarter, though from a Rebell, willingly</l>
+               <l>Accept his courteous offer; thinking then,</l>
+               <l>The greateſt Good could befall innocent men,</l>
+               <l>Was to be ſoone accus'd: With that away</l>
+               <l>We went to th' Beare, where then our Judges lay;</l>
+               <l>Where by the Captaine we were brought before</l>
+               <l>A veryer Beaſt then that which hung at doore,</l>
+               <l>A ſtrange fat unlickt, bald-fac'd fellow, who</l>
+               <l>Was round all ore, head, face, back, belly too:</l>
+               <l>This thing was Knighted once, but into's skin,</l>
+               <l>Beſide the tallow and guts, were crowded in</l>
+               <l>A Foole, a Knave, a Mad-man, in whoſe Rights</l>
+               <l>He ſince hath ſtil'd himſelfe not Knight, but Knights.</l>
+               <l>He having tun'd his Pipes with ſix or ſeven</l>
+               <l>Good ratling Oathes, began to ſpeake; <hi>'Fore Heaven</hi>
+               </l>
+               <l>
+                  <hi>Gentlemen this is ſtrange, By — it is;</hi>
+               </l>
+               <l>
+                  <hi>And if it were but my caſe as 'tis his,</hi>
+               </l>
+               <l>(Meaning the Colonels) <hi>I'de hang you all:</hi>
+               </l>
+               <l>
+                  <hi>For looke you, Sir, if any Body ſhall</hi>
+               </l>
+               <l>
+                  <hi>Abuſe the Parliament, as ſome of you</hi>
+               </l>
+               <l>
+                  <hi>May chance, and I have witneſſe of it too,</hi>
+               </l>
+               <l>
+                  <hi>Iudge me, confound me, if you had but don't,</hi>
+               </l>
+               <l>
+                  <hi>The beſt amongst you ſhould heare further on't,</hi>
+               </l>
+               <pb facs="tcp:155365:3"/>
+               <l>This Mooneling I did now perceive to bee</l>
+               <l>A kind of <hi>Haſelrigge</hi> to the Committee,</l>
+               <l>Onely brought unto doe he knew not what,</l>
+               <l>And gladly would have kept him out of that</l>
+               <l>Mad Wilderneſſe of Non-ſence, and began</l>
+               <l>To aske him, <hi>What the matter was?</hi> The man</l>
+               <l>Mad at this Interruption, tells us plaine,</l>
+               <l>We all muſt back to th' Court of Guard againe;</l>
+               <l>The Divell ſure (thought I) entred this Rogue</l>
+               <l>In the ſame humour that he did the Hogge.</l>
+               <l>But obſtinate he was, we all are ſent</l>
+               <l>To th' Hell from whence we came, and downe we went.</l>
+               <l>But our ſpruce Youngſter who before reliev'd us,</l>
+               <l>Now in the height of our Deſpaire repriev'd us,</l>
+               <l>And by ſtealth kept us in the Houſe: the Mind</l>
+               <l>Of him who finding Gold, did leave behind</l>
+               <l>His Rope, was not ſo glad as ours; for heere</l>
+               <l>We found a handſome Roome, good wholeſome Beero,</l>
+               <l>Some hopes of Supper too, nor did we lack</l>
+               <l>The promiſe of incomparable Sack.</l>
+               <l>And ſay'ſt thou ſo, my Lad? Let's have it then;</l>
+               <l>Fill my Bowle full, you Rogue. Come Gentlemen,</l>
+               <l>A Health t'our friends, and him above the reſt,</l>
+               <l>Who's meant by th' Phillip and Clap upon the breſt.</l>
+               <l>How now, who's drooping there? who dares be ſo</l>
+               <l>In the Kings Cauſe, and on the Kings day too?</l>
+               <l>Pox on't, 'tis ſcurvie; Ile tell thee, we ſhall bring</l>
+               <l>(When we are merrie or lowſie) for the King</l>
+               <l>As much of ſpirit as when we fight for him.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Come, heere's to thee</hi> Jack,</l>
+               <l>
+                  <hi>'Tis a Cup of good Sack,</hi>
+               </l>
+               <l>
+                  <hi>Let the Plunderers come,</hi>
+               </l>
+               <l>
+                  <hi>VVith their Fife and Drumme,</hi>
+               </l>
+               <l>
+                  <hi>Let in Bullet i'th' Houſe,</hi>
+               </l>
+               <l>
+                  <hi>VVe care not a Lowſe,</hi>
+               </l>
+               <l>
+                  <hi>Ile fill up my Cup,</hi>
+               </l>
+               <l>
+                  <hi>And take it all up.</hi>
+               </l>
+               <pb facs="tcp:155365:3"/>
+               <l>
+                  <hi>Then through their Chambers weele ſend ſuch a Rattle,</hi>
+               </l>
+               <l>
+                  <hi>Shall ſummon the Rogues in their Dreames to Battel;</hi>
+               </l>
+               <l>
+                  <hi>And when we begin but our Voyces to reare,</hi>
+               </l>
+               <l>
+                  <hi>It ſhall ſtrike ſuch a terror in every Prick-eare,</hi>
+               </l>
+               <l>
+                  <hi>That ſhall make the Round-heads</hi>
+               </l>
+               <l>
+                  <hi>Leape out of their Beds,</hi>
+               </l>
+               <l>
+                  <hi>And ſweare Prince</hi> Rupert's <hi>there.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>VVhat was't I began,</hi>
+               </l>
+               <l>
+                  <hi>King</hi> Charles <hi>was the Man?</hi>
+               </l>
+               <l>
+                  <hi>'Tis he that must now</hi>
+               </l>
+               <l>
+                  <hi>Clayme just title too.</hi>
+               </l>
+               <l>
+                  <hi>That gallant brave food</hi>
+               </l>
+               <l>
+                  <hi>Of rich ſparkling bloud,</hi>
+               </l>
+               <l>
+                  <hi>That Liquor must make,</hi>
+               </l>
+               <l>
+                  <hi>VVhich now thou doſt take,</hi>
+               </l>
+               <l>
+                  <hi>I tell thee 'twill bring ſuch ſpirits to thee,</hi>
+               </l>
+               <l>
+                  <hi>That ſhall in the face of a Rebell flee;</hi>
+               </l>
+               <l>
+                  <hi>And entring in, without any controule,</hi>
+               </l>
+               <l>
+                  <hi>Shall find out that durtie thing call'd thy Soule,</hi>
+               </l>
+               <l>
+                  <hi>And hunt it about,</hi>
+               </l>
+               <l>
+                  <hi>Till they drive it out,</hi>
+               </l>
+               <l>
+                  <hi>By the way moſt ſtinking and foule.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Come fill my Cup full,</hi>
+               </l>
+               <l>
+                  <hi>Heere's to the taking of</hi> Hull,</l>
+               <l>
+                  <hi>To the Man that ſhall bring</hi>
+               </l>
+               <l>
+                  <hi>The great Cuckold to th' King,</hi>
+               </l>
+               <l>
+                  <hi>To him that ſhall make</hi>
+               </l>
+               <l>Northampton <hi>to quake,</hi>
+               </l>
+               <l>
+                  <hi>To all that dare fight,</hi>
+               </l>
+               <l>
+                  <hi>And dye with delight.</hi>
+               </l>
+               <l>
+                  <hi>Then let them all come; what feareſt, thou Man?</hi>
+               </l>
+               <l>
+                  <hi>Doe but ſpend what thou haſt, let them take what they can:</hi>
+               </l>
+               <l>
+                  <hi>And ſince that the Rogues with their Armes doe endeavour</hi>
+               </l>
+               <l>
+                  <hi>Our ſelves from our King and our Money to ſever,</hi>
+               </l>
+               <pb facs="tcp:155365:4"/>
+               <l>
+                  <hi>VVeele ſend it by ſtealth,</hi>
+               </l>
+               <l>
+                  <hi>In drinking his Health,</hi>
+               </l>
+               <l>
+                  <hi>And give't him that way ſoever.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This Rapture ended, wee ſee comming in</l>
+               <l>A good Man of the Tribe of <hi>Anakim;</hi>
+               </l>
+               <l>A prettie beard-leſſe Squire followed him nigh,</l>
+               <l>Being a Gigge of his, ſome ſeven foot high:</l>
+               <l>They tell us, Supper's comming up; wee ſay,</l>
+               <l>Let it come up, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>'th' meane time drinke away.</l>
+               <l>Supper being done, the mirth w'enjoy'd before</l>
+               <l>Returnes continues ſome five houres, or more;</l>
+               <l>Myſterious Malignant Healths abound,</l>
+               <l>Which we by Signes and Characters put round;</l>
+               <l>The laſt of which <hi>Sm<gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>miniouſly</hi> went up,</l>
+               <l>Each Letter in the Name Chriſtened a Cup.</l>
+               <l>And now a<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> things conven<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ent being done,</l>
+               <l>Our Brace of <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Ho<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and Sonne,</l>
+               <l>Made very ſleepie, out hea<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Captaine ſun<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</l>
+               <l>Our Hoſteſſe kiſs'd our gentle Keepers drunke,</l>
+               <l>A bri<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ing Caſt gone round, to Bed we goe,</l>
+               <l>And ſleepe like valiant Priſoners round<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y too;</l>
+               <l>Our Martiall Jaylors by us are layd all.</l>
+               <l>Drunke o'th' ground, durt to durt: i'th' Morne they call.</l>
+               <l>We lowſe our ſelves, and riſe, then goe to bee</l>
+               <l>Queſtion'd by the <hi>Sanedrim</hi> i'th' Committee.</l>
+               <l>But heere things prove quite contrary; No man</l>
+               <l>Can tell why we are brought there: We began</l>
+               <l>T'examine them, What was our fauit? Our foe.</l>
+               <l>The gentle Knight ſaid, he did nothing know,</l>
+               <l>But that we might be honeſt: onely apace</l>
+               <l>He ſwore that we were Rogues, and hanging was</l>
+               <l>Too good for us: Another ſtarts, and ſayes</l>
+               <l>We wore Kings Colours (<hi>God ſo, Hide thy face,</hi>
+               </l>
+               <l>
+                  <hi>Good fellow Priſoner, that pale reddiſh Blew</hi>
+               </l>
+               <l>
+                  <hi>Will elſe betray us</hi>) Another ſwore, he knew</l>
+               <l>Each of us had a Pope in's belly; ſome</l>
+               <l>Said we dranke Healths unto they knew not whom:</l>
+               <pb facs="tcp:155365:4"/>
+               <l>Our Keepers knew no hurt, unleſſe 'thad bin</l>
+               <l>Drinking of Sack, honeſt <hi>Iack Falſtaffes</hi> ſinne,</l>
+               <l>That could not any accuſation bring,</l>
+               <l>(Though Royall Drinke and Laquor for the King)</l>
+               <l>One ſaid he thought that we Malignants were;</l>
+               <l>That very word made us to tarry there:</l>
+               <l>For now their Cabinet Counſaile thought it fit</l>
+               <l>To keepe us, till we ſhould ſome Crime commit.</l>
+               <l>This vex'd me (I confeſſe) and to my thought</l>
+               <l>Some of my dayly Meditations brought.</l>
+            </lg>
+            <lg>
+               <l>Curſe on your Parliament Juſtice; I did know</l>
+               <l>This was your way, and I have felt it now:</l>
+               <l>Alas, we know your arbitrarie hate</l>
+               <l>Is growne to be both our Ste<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ne Law and Fate;</l>
+               <l>We know how oft y'are forc'd the Name to change,</l>
+               <l>And what you can't call Puniſhment, is Revenges</l>
+               <l>If you doe hap to light on a confeſt</l>
+               <l>Offender, 'tis but Fortune at the beſt.</l>
+               <l>To be thought honeſt Men, is to betray</l>
+               <l>Our ſelves and fortunes (an unluckie pray)</l>
+               <l>To your vaſt cruell Avarice: We know</l>
+               <l>What horrid ills you muſt hereafter doe,</l>
+               <l>By Sequeſtration and Proſcriptions; Crimes</l>
+               <l>Which ſhall abſolve th'<hi>Iriſh</hi> in after-times.</l>
+               <l>Oh may theſe Wrongs ſit heavie on you, when</l>
+               <l>You meet the King i'th' Field; May your Ills then</l>
+               <l>Stick faſt and ſtrongly to you on all parts.</l>
+               <l>And ſend a gaſtly trembling through your hearts;</l>
+               <l>May you then thinke of GOD, and p<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>us grow,</l>
+               <l>And then Deſpaire prove Cowardiſe in you;</l>
+               <l>Be your owne Sp'rites amongſt you, to poſſeſſe</l>
+               <l>Your Coward hearts with thoughts of gu<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ltineſſe,</l>
+               <l>And feare of Vengeance: May each good mans prayer,</l>
+               <l>Whom you have wrong'd, flye ſtrong againſt you there;</l>
+               <l>And your miraculous Misfortunes bring</l>
+               <l>You to confeſſe, you fight againſt the King.</l>
+               <pb facs="tcp:155365:5"/>
+               <l>And ſure we ſhall at laſt our wiſhes gaine,</l>
+               <l>So vigorous hatred cannot be in vaine:</l>
+               <l>If Murther, Rapine, and Injuſtice bee</l>
+               <l>Enough t'orewhelme you, ſure theſe eyes ſhall ſee</l>
+               <l>Your Villanies unmaskt, and you ſo low</l>
+               <l>And poore, that e'en my ſelfe ſhall pittie you.</l>
+            </lg>
+            <lg>
+               <l>And thou my Knight, whom a more ſordid Fate</l>
+               <l>Hath made below ſo ſtrong, and fierce a hate,</l>
+               <l>My venerable Judge, to whom I owe</l>
+               <l>Six L<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ce and my Impriſonment, ſhalt grow</l>
+               <l>More famous now (if ought my Verſes can,</l>
+               <l>Or thoſe my Friends can make) thou ſhalt b'a Man</l>
+               <l>Greater then Fate hath made thee (if Ballets bee</l>
+               <l>But capable of Immortalitie)</l>
+               <l>Children and Market-maids in after-times</l>
+               <l>Shall ſee thee dreſt in moſt vile Tunes, and Rimes,</l>
+               <l>And Ale-houſes as yet not built, ſhall ſee</l>
+               <l>Thy Picture paſted on their Mantle-tree:</l>
+               <l>Nere looke to dye, thou ſhalt be laught at ſtill,</l>
+               <l>Longer then <hi>Naſhos Harvy,</hi> or <hi>Triplets</hi> Gill.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <argument>
+               <p>Sent from the ſame Scholler from <hi>Cambridge,</hi> whoſe name is <hi>R. B.</hi> to his Royall friend at <hi>Oxford, T. S.</hi>
+               </p>
+            </argument>
+         </div>
+      </body>
+   </text>
+</TEI>
